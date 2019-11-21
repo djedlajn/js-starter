@@ -21,4 +21,9 @@ module.exports = {
     },
   },
   plugins: ['react', 'react-hooks'],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
 }
