@@ -16,8 +16,7 @@
     "dev:debug": "npm run debug -- --env.mode development",
     "lint": "eslint src",
     "prettier": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|mdx|graphql|vue)\"",
-    "validate": "npm run lint && npm run prettier -- --list-different",
-    "precommit": "lint-staged && npm run validate"
+    "validate": "npm run lint && npm run prettier -- --list-different"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
