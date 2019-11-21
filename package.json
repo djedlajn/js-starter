@@ -16,7 +16,8 @@
     "dev:debug": "npm run debug -- --env.mode development",
     "lint": "eslint src",
     "prettier": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|mdx|graphql|vue)\"",
-    "validate": "npm run lint && npm run prettier -- --list-different"
+    "validate": "npm run lint && npm run test && npm run prettier -- --list-different",
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
@@ -38,6 +39,7 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^3.1.0",
+    "jest": "^24.9.0",
     "jimp": "^0.8.5",
     "lint-staged": "^9.4.3",
     "mini-css-extract-plugin": "^0.8.0",
