@@ -4,7 +4,7 @@ import {render} from 'react-dom'
 function App() {
   return (
     <div>
-      <h1>Teszt</h1>
+      <h1>Minor</h1>
     </div>
   )
 }
